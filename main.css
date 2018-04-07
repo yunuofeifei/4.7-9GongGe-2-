@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 170px;
+	height: 170px;
+	background-color: blue;
+	display: flex;
+	flex-wrap: wrap;
+}
+.box{
+	background-color: rgba(255, 255, 255, .7);
+	width: 50px;
+	height: 50px;
+	float: left;
+	border: 5px solid blue;
+	margin-right: -5px;
+}
+.row2, .row3{
+	margin-top: -5px;
+}
+.box:hover{
+	border-color: red;
+	z-index: 1;
+	cursor: pointer;
+}
